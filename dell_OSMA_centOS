@@ -1,0 +1,13 @@
+# How to install Dell OpenManage Administrator in Linux CentOS 7
+----------------------------------------------------------------------
+Step 1: Edit /etc/yum.conf and ensure that exist the line
+```
+plugins=1
+```
+
+If not then create or amend that line so that it looks as above
+Setup the Dell OpenManage  repository using the command
+wget -q -O - http://linux.dell.com/repo/hardware/latest/bootstrap.cgi | bash
+Install Dell OpenManage Administrator using the command
+yum install srvadmin-all
+If you only want to install Dell OpenManager Web Interface and not the full package then use the command
