@@ -1,2 +1,1 @@
-# tech_notes
-Technical Notes
+Keep technical notes
